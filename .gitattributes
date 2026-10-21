@@ -1,0 +1,5 @@
+# Preserve Python LF bytes so the portable bundle's implementation checksum stays valid.
+*.py text eol=lf
+
+# Never normalize or text-merge serialized model artifacts.
+*.joblib binary

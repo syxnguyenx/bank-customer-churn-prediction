@@ -1,0 +1,40 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Local secrets and private credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Temporary files and local exports
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+/requirements-local.txt
+/customers_test.csv
+
+# Obsolete v1 bundle; keep the current model artifacts and portable bundle trackable
+/inference_bundle.joblib

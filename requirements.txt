@@ -1,0 +1,11 @@
+# Direct dependencies read from this project's .venv distribution metadata.
+# Target Python: 3.12.9 (the user's validated runtime).
+# unittest is in the Python standard library; transitive dependencies are not locked here.
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+shap==0.54.1
+streamlit==1.66.0
+matplotlib==3.11.2
