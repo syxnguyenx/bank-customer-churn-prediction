@@ -345,3 +345,9 @@ Project có `requirements.txt` ghim dependency trực tiếp, nhưng chưa có n
 huấn luyện, lockfile đầy đủ cho dependency gián tiếp hoặc cấu hình triển khai
 cloud. Model, schema và threshold hiện tại được giữ nguyên;
 không có bước huấn luyện lại khi chạy app, gọi API mẫu hoặc tạo bundle.
+
+## Live Demo
+
+Ứng dụng dự đoán khách hàng rời bỏ ngân hàng được triển khai bằng Streamlit.
+
+🔗 [Truy cập ứng dụng tại đây] https://bank-customer-churn-prediction-d5krewe7mhcdhco2wxafam.streamlit.app/
